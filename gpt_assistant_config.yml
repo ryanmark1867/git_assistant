@@ -1,8 +1,8 @@
 general:
    load_from_scratch: False
    save_raw_dataframe: False
-   save_transformed_dataframe: True
-   remove_bad_values: True
+   save_gpt: True
+   gpt_pickle_name: "gpt_aug22.pkl"
    stop_string: bye
    gpt_engine: "davinci"
    gpt_temperature: 0.5
