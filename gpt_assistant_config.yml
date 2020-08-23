@@ -1,11 +1,7 @@
 general:
-   load_from_scratch: False
-   save_raw_dataframe: False
-   save_gpt: True
-   gpt_pickle_name: "gpt_aug22.pkl"
    stop_string: bye
    gpt_engine: "davinci"
    gpt_temperature: 0.5
    gpt_max_tokens: 100
-   gpt_key: <YOU NEED TO SUPPLY YOUR KEY FROM https://beta.openai.com/developer-quickstart HERE>
+   gpt_key: <SET VALUE TO YOUR SECRET API KEY LISTED HERE https://beta.openai.com/developer-quickstart>
    
